@@ -2,7 +2,8 @@
 #include <conio.h>
 void main() 
 {
-	int a,b,sum,mul,div,sub;
+	int a,b,sum,mul,sub;
+	float div;
 	
 	
 		printf("enter the values of a and b");
@@ -13,7 +14,7 @@ void main()
 		mul=a*b;
 
                 printf("%d" ,sum);
-		printf("%d" ,div);
+		printf("%f" ,div);
 		printf("%d" ,mul);
 		printf("%d" ,sub);
 
