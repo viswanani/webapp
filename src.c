@@ -13,6 +13,15 @@ void main()
 		div= a/b;
 		mul= a*b;
 		square=sqrt(a);
+		if (a=2)
+		{
+			printf("number is a prime number");
+		}
+		else 
+			(a%2==0)
+			{
+				printf("number is not a prime number");
+			}
 		
 		printf("%d" ,sum);
 		printf("%f" ,div);
