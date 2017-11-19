@@ -17,12 +17,14 @@ void main()
 		{
 			printf("number is a prime number");
 		}
-		else 
-			(a%2==0)
+		else if (a%2==0)
 			{
 				printf("number is not a prime number");
 			}
-		
+		else 
+		       {
+			       for (n=0;n<a;n++)
+
 		printf("%d" ,sum);
 		printf("%f" ,div);
 		printf("%d" ,mul);
