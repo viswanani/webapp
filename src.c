@@ -3,17 +3,18 @@
 void main() 
 {
 	int a,b,sum,mul,sub;
-	float div;
+	float div,square;
 	
 	
 		printf("enter the values of a and b");
-	        scanf("%d %d" ,&a,&b);
+	        scanf ("%d %d" ,&a,&b);
 	        sum= a+b;
-		sub=a-b;
-		div=a/b;
-		mul=a*b;
-
-                printf("%d" ,sum);
+		sub= a-b;
+		div= a/b;
+		mul= a*b;
+		square=sqrt(a);
+		
+		printf("%d" ,sum);
 		printf("%f" ,div);
 		printf("%d" ,mul);
 		printf("%d" ,sub);
