@@ -1,1 +1,1 @@
-this is dori
+this is used to test the configuration of comit 
