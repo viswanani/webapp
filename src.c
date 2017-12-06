@@ -21,9 +21,18 @@ void main()
 			{
 				printf("number is not a prime number");
 			}
-		else 
+		else if(b%2==0)
 		       {
-			       for (n=0;n<a;n++)
+			       printf("number is not a prime number");
+		       }
+		else
+		       {
+			       for (n=1;n<a;n++)
+			       {
+				       x=a/n
+					       if
+
+
 
 		printf("%d" ,sum);
 		printf("%f" ,div);
